@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkylator Basics</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Min Första Kalkylator</h1>
+
+        <!-- Display för att visa resultat -->
+        <div id="display" class="display">0</div>
+
+        <!-- Enkla knappar för att börja - bara en rad! -->
+        <div class="buttons">
+            <!-- Bara två siffror och en operation att börja med -->
+            <button id="btn-1" class="number">1</button>
+            <button id="btn-2" class="number">2</button>
+            <button id="btn-plus" class="operator">+</button>
+            <button id="btn-equals" class="equals">=</button>
+
+            <!-- TODO: Lägg till fler knappar här när du förstår grunderna! -->
+            <!-- Exempel: btn-3, btn-4, btn-5, etc. -->
+            <!-- Exempel: btn-minus, btn-multiply, btn-divide -->
+            <!-- Exempel: btn-clear, btn-0 -->
+        </div>
+
+        <!-- Debugging-område (hjälper eleverna att se vad som händer) -->
+        <div id="debug" class="debug">
+            <h3>Debug-info:</h3>
+            <p>Första tal: <span id="first-number">-</span></p>
+            <p>Operation: <span id="operation">-</span></p>
+            <p>Andra tal: <span id="second-number">-</span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
