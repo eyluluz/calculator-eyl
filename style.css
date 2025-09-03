@@ -30,7 +30,33 @@ h1 {
     margin-bottom: 20px;
     border-radius: 5px;
     font-family: monospace;
+    overflow: hidden;
+    position: relative;
 }
+
+
+.display::before {
+  content: '';
+    position: absolute;
+    height: 60px;
+    width: 350px;
+    top: 0;
+    left: 0px;
+
+        background: linear-gradient(20deg, rgb(255, 255, 255), transparent 75%);
+} 
+
+.display::after {
+    content: '';
+    position: absolute;
+    height: 60px;
+    width: 200px;
+    top: 0;
+    left: 0px;
+        background: linear-gradient(20deg, rgb(0, 0, 0), transparent 50%);
+
+}
+
 
 /* Knapp-området - OBS! Bara en rad knappar nu */
 .buttons {
@@ -72,7 +98,7 @@ button {
 
 /* Exempel för equals-knapp: */
 .equals {
-    background-color: #ff9500;
+    background-color: #a6a6a6;
     color: white;
 }
 
@@ -86,12 +112,14 @@ button {
     background-color: #f0f0f0;
     padding: 15px;
     border-radius: 5px;
-    border-left: 4px solid #007acc;
+    border-left: 4px solid #d17001;
+    border-right: 4px solid #d17001;
+
 }
 
 .debug h3 {
     margin-top: 0;
-    color: #007acc;
+    color: #d17001;
 }
 
 .debug p {

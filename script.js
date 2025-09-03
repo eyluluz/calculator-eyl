@@ -41,12 +41,14 @@ function updateDebug() {
 // STEG 5: Hantera siffror (bara 1 och 2 fungerar nu)
 function handleNumber(number) {
     if (operation === '') {
-        firstNumber = firstNumber + number; // OBS: Vad händer här? Hint: string concatenation
+        firstNumber += number;
         displayValue = firstNumber;
     } else {
-        secondNumber = secondNumber + number; // OBS: Samma problem här
+        // Vi bygger det andra talet
+        secondNumber += number;
         displayValue = secondNumber;
     }
+    
 
     updateDisplay();
     updateDebug();
