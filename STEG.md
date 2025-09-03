@@ -216,6 +216,10 @@ När du har många knappar, ändra CSS:en för bättre layout:
 Grattis! Du har byggt en riktig kalkylator genom att lösa verkliga programmeringsproblem! 🎉
 
 ---
+HJÄLPPPPPPPPPPPPPPPPPPPPP
+PPPPPPPPPPPP
+PPPPPPPPPPP
+PPPPPPPPPP nästa steg här
 
 ## STEG 2: Förstå DOM - Hitta HTML-element
 
